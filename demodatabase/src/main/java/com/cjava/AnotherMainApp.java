@@ -21,6 +21,7 @@ public class AnotherMainApp {
 
     persons.forEach(p -> System.out.println("Person id: " + p.id() + " Person name:" + p.name()));
 
+    System.out.println("Prueba Git");
 
   }
   
