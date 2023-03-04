@@ -4,6 +4,7 @@ import com.cjava.dao.PersonDao;
 import com.cjava.dao.PersonDaoImpl;
 import com.cjava.model.Person;
 
+import java.time.LocalDate;
 import java.util.List;
 
 public class AnotherMainApp {
@@ -22,6 +23,8 @@ public class AnotherMainApp {
     persons.forEach(p -> System.out.println("Person id: " + p.id() + " Person name:" + p.name()));
 
     System.out.println("Prueba Git");
+
+    System.out.println(LocalDate.now());
 
   }
   
