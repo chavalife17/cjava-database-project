@@ -4,6 +4,7 @@ import com.cjava.dao.PersonDao;
 import com.cjava.dao.PersonDaoImpl;
 import com.cjava.model.Person;
 
+import java.time.LocalDate;
 import java.util.List;
 
 public class AnotherMainApp {
@@ -24,6 +25,8 @@ public class AnotherMainApp {
     System.out.println("Prueba Git");
 
     System.out.println("Test Git - feature/new_feature");
+
+    System.out.println(LocalDate.now());
 
   }
   
